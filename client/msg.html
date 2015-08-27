@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='styles.css' rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+
+<header>
+<h3 id="header">Заказать</h3>
+</header>
+<main>
+<div class="msg_main">
+<form action="/server/msg.php" autocomplete="on" method="post">
+<input id="name" type="hidden" name="name" value=""><br>
+<div class="field"><label for="fname">Имя:</label><input id="first_name" type="text" name="first_name" placeholder="Имя" autofocus></div>
+<div class="field"><label for="fname">Фамилия:</label><input id="last_name" type="text" name="last_name" placeholder="Фамилия"></div>
+<div class="field"><label for="fname">E-mail:</label><input id="email" type="email" name="email" placeholder="E-mail" required></div>
+<div class="field"><label for="fname">Телефон:</label><input id="telephone" type="tel" name="telephone" placeholder="Телефон"></div>
+<div class="field"><label for="fname">Сообщение:</label><input id="comments" type="text" name="comments" placeholder="Сообщение"></div>
+<input type="submit">
+</form>
+</div>
+</div>
+</main>
+<footer>
+</footer>
+<script src="msg.js"></script>
+</body>
+</html>

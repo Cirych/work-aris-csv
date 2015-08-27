@@ -1,0 +1,36 @@
+#csv-data {
+width:50%;
+}
+#csv-data button {
+color:blue;
+}
+.csv_row {
+border: 1px solid;
+overflow: auto;
+}
+.csv_left {
+
+}
+.csv_right {
+float:right;
+}
+
+.csv_right  img{
+max-width:300px;
+}
+
+#csv-pages * {
+color:red;
+}
+.field {
+clear:both;
+text-align:right;
+line-height:25px;
+}
+.msg_main label {
+float:left;
+padding-right:10px;
+}
+.msg_main {
+float:left;
+}
